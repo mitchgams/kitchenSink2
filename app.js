@@ -17,7 +17,7 @@ sayHello();
  */
 function checkAge(name, age) {
     if(age < 21) {
-        alert("Sorry " + name + ", you aren't old enough to view this page!");
+        console.log("Sorry " + name + ", you aren't old enough to view this page!");
     }
 }
 checkAge("Charles", 21);
@@ -39,3 +39,6 @@ let people = [
     { name:"Meagan", age:25 },
     { name:"Mike", age:18 }
 ];
+for(i = 0; i < people.length; i++){
+    checkAge(people[i].name, people[i].age);
+}
