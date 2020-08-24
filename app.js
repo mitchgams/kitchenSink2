@@ -42,3 +42,17 @@ let people = [
 for(i = 0; i < people.length; i++){
     checkAge(people[i].name, people[i].age);
 }
+
+/*********************
+ * getLength() checks the length of a given string
+ */
+function getLength(string) {
+    return string.length;
+}
+
+let strLength = getLength("Hello World");
+if(strLength%2 < 1) {
+    console.log("The world is nice and even!");
+} else {
+    console.log("The world is an odd place!");
+}
