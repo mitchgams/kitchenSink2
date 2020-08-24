@@ -17,7 +17,7 @@ sayHello();
  */
 function checkAge(name, age) {
     if(age < 21) {
-        console.log("Sorry " + name + ", you aren't old enough to view this page!");
+        alert("Sorry " + name + ", you aren't old enough to view this page!");
     }
 }
 checkAge("Charles", 21);
@@ -26,6 +26,9 @@ checkAge("James", 18);
 checkAge("John", 17);
 
 let favoriteVegetables = ["Okra", "Asparagus", "Spinach", "Artichokes", "Brussell Sprouts", "Cabbage"];
+for(i=0; favoriteVegetables.length > i; i++) {
+    console.log(favoriteVegetables[i]);
+}
 let pet = {
     name: "Carl",
     breed: "Pitbull"
