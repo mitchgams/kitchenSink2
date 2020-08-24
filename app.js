@@ -31,3 +31,11 @@ let pet = {
     breed: "Pitbull"
 };
 console.log(pet.name + " is a " + pet.breed);
+
+let people = [
+    { name:"Susan", age:27 },
+    { name:"Carl", age:20 },
+    { name:"Billy", age:34 },
+    { name:"Meagan", age:25 },
+    { name:"Mike", age:18 }
+];
