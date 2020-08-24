@@ -24,3 +24,5 @@ checkAge("Charles", 21);
 checkAge("Abby", 27);
 checkAge("James", 18);
 checkAge("John", 17);
+
+let favoriteVegetables = ["Okra", "Asparagus", "Spinach", "Artichokes", "Brussell Sprouts", "Cabbage"];
