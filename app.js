@@ -1,6 +1,26 @@
-var sum = add(99, 443);
+let firstName = "Mitchell";
+const stateCount = 50;
+let fivePlusFour = 5+4;
 
-function add(num1, num2) {
-    return num1 + num2;
+/***************
+ * Function displaying Hello
+ */
+function sayHello() {
+    alert("Hello World!");
 }
-console.log(sum);
+
+sayHello();
+
+/*********************
+ * checkAge checks to make sure you
+ * are 21 or older
+ */
+function checkAge(name, age) {
+    if(age < 21) {
+        alert("Sorry " + name + ", you aren't old enough to view this page!");
+    }
+}
+checkAge("Charles", 21);
+checkAge("Abby", 27);
+checkAge("James", 18);
+checkAge("John", 17);
