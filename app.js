@@ -26,3 +26,8 @@ checkAge("James", 18);
 checkAge("John", 17);
 
 let favoriteVegetables = ["Okra", "Asparagus", "Spinach", "Artichokes", "Brussell Sprouts", "Cabbage"];
+let pet = {
+    name: "Carl",
+    breed: "Pitbull"
+};
+console.log(pet.name + " is a " + pet.breed);
